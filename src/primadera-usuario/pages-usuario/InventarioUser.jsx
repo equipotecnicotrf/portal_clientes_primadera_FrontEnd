@@ -82,14 +82,14 @@ const DataInventario = () => {
     };
 
 
-{/* pRUEBAAAAA*/}
+
 
 
     return (
         <>
             <div className='Back' style={backgroundStyle}>
                 <BannerUser />
-
+{/* pRUEBAAAAA*/}
                 <div className='Buttons_perfil mt-12'>
 
                     <button className='btns_perfil p-2 m-2 btn-sm' onClick={() => navigate("/DataTablePerfilUser")}>Perfil</button>
