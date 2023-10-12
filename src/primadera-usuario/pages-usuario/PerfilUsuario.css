@@ -1,24 +1,29 @@
-.Img-Admin{
+.Img-Admin {
     width: 100px;
     height: 100px;
 }
-.SearchInventario{    
-    margin-top: -45px;
-    margin-left: 850px;
-}
-.inventario { 
-    background-color: #323333;     
-}
 
-/*AJUSTE LCPG INI*/
-
-.Img-Creamos_inv{
+.Img-Creamos_perfil {
     width: 200px;
     height: 100px;
     margin: auto;
     display: block;
 }
-/*AJUSTE LCPG FIN*/
+
+.Buttons_perfil {
+    margin-top: -239px;
+    margin-left: 20.5%;
+    z-index: auto;
+}
+
+.Buttons_perfil2 {
+    margin-top: -8%;
+    margin-left: 2%;
+    padding-bottom: 15%;
+    justify-content: space-between;
+    z-index: 3;
+    position: absolute;
+}
 
 .btns_perfil {
     box-shadow: 2px;
@@ -28,15 +33,8 @@
     font-size: medium;
     width: 170px;
     height: 50px;
-    
     border-color: black;
     border-width: 0.5px;
-}
-
-.Buttons_perfil {
-    margin-top: 20px;
-    margin-left: 23%;
-    z-index: auto;
 }
 
 .btns_perfil2 {
@@ -53,32 +51,118 @@
     border-width: 0.5px;
 }
 
-.Buttons_perfil2 {
-    margin-top: -40%;
-    margin-left: 5%;
-    padding-bottom: 15%;
-    justify-content: space-between;
-}
-.FondoBlanco{
+.FondoBlanco {
     background-color: white;
     margin: 40px;
     top: 30%;
-    
-   
-    
+    height: 755px;
 }
-.CuadroInfo{
-background-color: #EFEEEE;
-width: 621px;
-height: 649px;
-margin: -24%;
-margin-left: 35%;
-margin-top: 10%;
+
+.CuadroInfo {
+    background-color: #EFEEEE;
+    ;
+    width: 621px;
+    height: 649px;
+    margin: -24%;
+    margin-left: 35%;
+    margin-top: 5%;
+    z-index: 1;
+    position: relative
 }
-.TextoIni{
+
+
+.CuadroInfo_dir {
+    background-color: #EFEEEE;
+    width: 621px;
+    height: 649px;
+    margin: -24%;
+    margin-left: 32.9%;
+    margin-top: -25.55%;
+    z-index: 2;
+    position: absolute;
+    overflow: auto;
+    justify-content: center;
+}
+
+.CuadroInfo_dir2 {
+    background-color: #EFEEEE;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.titulo_dir {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    height: 20vh;
+    margin-left: 4.5%;
+}
+
+.CuadroInfo_ayuda {
+    background-color: #EFEEEE;
+    width: 621px;
+    height: 649px;
+    margin-left: 32.9%;
+    margin-top: -25.55%;
+    z-index: 2;
+    position: absolute;
+    overflow: auto;
+    justify-content: center;
+}
+
+.parrafos {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 24.5%;
+    text-align: center;
+}
+
+.parrafo_espacio {
+    margin-bottom: 50px;
+}
+
+.ImagenIni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: -70vh;
+}
+
+.TextoIni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+}
+
+.Tex_ima {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     height: 100vh;
+}
+
+
+.perfil {
+    margin-top: 105px;
+    margin-left: 2%;
+    z-index: auto;
+}
+
+.btn_whastapp2 {
+    margin-top: 139px;
+    margin-left: 10.5%;
+    z-index: auto;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
 }
