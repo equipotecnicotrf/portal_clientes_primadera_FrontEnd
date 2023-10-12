@@ -123,7 +123,7 @@ const DataTablePerfilUser = ({ backgroundColor }) => {
                     <div className='Buttons_perfil2 mt-12'>
 
                         <Row>
-                            <Col><button className='btns_perfil2 p-2 m-2 btn-sm'><td><th>Direcciones</th>3 direcciones agregadas</td></button></Col>
+                            <Col><button className='btns_perfil2 p-2 m-2 btn-sm'><td><th>Direccionessss</th>3 direcciones agregadas</td></button></Col>
                         </Row>
                         <Row>
                             <Col><button className='btns_perfil2 p-2 m-2 btn-sm'><th>Servicio de ayuda</th></button></Col>
