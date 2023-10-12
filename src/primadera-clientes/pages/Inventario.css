@@ -1,0 +1,35 @@
+.Img-Admin {
+    width: 100px;
+    height: 100px;
+}
+
+.SearchInventario {
+    position: absolute;
+    top: 30%;
+    right: 10px;
+    
+}
+
+.inventario {
+    background-color: #323333;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  
+    .SearchInventario{
+      position: static;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+
+
+.Img-Creamos_inv {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}

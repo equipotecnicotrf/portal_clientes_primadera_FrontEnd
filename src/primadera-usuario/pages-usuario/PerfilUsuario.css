@@ -1,0 +1,84 @@
+.Img-Admin{
+    width: 100px;
+    height: 100px;
+}
+.SearchInventario{    
+    margin-top: -45px;
+    margin-left: 850px;
+}
+.inventario { 
+    background-color: #323333;     
+}
+
+/*AJUSTE LCPG INI*/
+
+.Img-Creamos_inv{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+/*AJUSTE LCPG FIN*/
+
+.btns_perfil {
+    box-shadow: 2px;
+    background-color: #BFBFBF;
+    color: white;
+    position: auto;
+    font-size: medium;
+    width: 170px;
+    height: 50px;
+    
+    border-color: black;
+    border-width: 0.5px;
+}
+
+.Buttons_perfil {
+    margin-top: 20px;
+    margin-left: 23%;
+    z-index: auto;
+}
+
+.btns_perfil2 {
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    position: auto;
+    font-size: medium;
+    width: 432px;
+    height: 104px;
+    padding-left: 100px;
+    top: 10%;
+    border-color: #BFBFBF;
+    border-width: 0.5px;
+}
+
+.Buttons_perfil2 {
+    margin-top: -40%;
+    margin-left: 5%;
+    padding-bottom: 15%;
+    justify-content: space-between;
+}
+.FondoBlanco{
+    background-color: white;
+    margin: 40px;
+    top: 30%;
+    
+   
+    
+}
+.CuadroInfo{
+background-color: #EFEEEE;
+width: 621px;
+height: 649px;
+margin: -24%;
+margin-left: 35%;
+margin-top: 10%;
+}
+.TextoIni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}

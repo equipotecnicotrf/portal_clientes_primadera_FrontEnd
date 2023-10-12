@@ -1,0 +1,175 @@
+.BackImg{
+
+    background-image:
+
+  url("../../assets/LoginBack.jpg");background-size: cover;
+
+  background-position: center;
+
+  height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: flex-end;
+
+  align-items: center;
+
+   
+
+}
+
+ 
+
+.Login-head{
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    width: 90%;
+
+    max-width: 450px;
+
+    height: 450px;
+
+    position: absolute;
+
+    top: 50px;
+
+   
+
+    /* margin-left: 30px;
+
+    margin-right: 50%;   */
+
+   
+
+}
+
+.Login-btn{
+
+    background-color: #323333;
+
+    width: 194.49px;
+
+    height: 50.74px;
+
+    border-radius: 30px;
+
+    margin-top: 10px;
+
+}
+
+ 
+
+.Login-content{
+
+text-align: center;
+
+}
+
+ 
+
+.logo-rojo{
+
+    text-align: center;
+
+}
+
+ 
+
+.email-form{
+
+width: 312.88px;
+
+height: 50.74;
+
+margin: auto;
+
+border-radius: 30px;
+
+}
+
+ 
+
+.password-form{
+
+    border-radius: 30px;
+
+    width: 312.88px;
+
+    height: 50.74;
+
+    margin: auto;
+
+}
+
+ 
+
+ 
+
+@media only screen and (min-width: 1280px) and (min-height: 1080px) {
+
+    .Login-head {
+
+     
+
+     
+
+      height: 120vh;
+
+      max-height: 500px;
+
+      top: 50%;
+
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+
+    }
+
+   
+
+    .Login-content {
+
+       
+
+      height: 0px;
+
+      width: 100%;
+
+      margin: 15px 15px;
+
+    }
+
+   
+
+    .email-form,
+
+    .password-form {
+
+      width: 100%;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 552px) and (max-height: 1020px) {
+
+    .Login-head {
+
+      width: 90%;
+
+      height: 450px;
+
+      top: 50%;
+
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+
+    }
+
+  }
